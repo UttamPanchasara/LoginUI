@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:animateLayoutChanges="true"
+        android:id="@+id/fmUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+    <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Username"
+            android:background="@drawable/bg_input_layout"
+            android:gravity="center_vertical"
+            android:padding="10dp"/>
+
+    <TextView
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:id="@+id/txtLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:background="@android:color/transparent"
+            tools:text="@string/label"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"/>
+</FrameLayout>

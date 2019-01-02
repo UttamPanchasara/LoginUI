@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="MaterialEditText">
+        <attr name="mtEdtText" format="string"/>
+        <attr name="mtLabelText" format="string"/>
+        <attr name="mtEdtHint" format="string"/>
+        <attr name="mtEdtTextSize" format="dimension"/>
+        <attr name="mtEdtTextColor" format="color"/>
+        <attr name="mtEdtBackground" format="reference"/>
+        <attr name="mtEdtPaddingStart" format="dimension"/>
+        <attr name="mtEdtPaddingTop" format="dimension"/>
+        <attr name="mtEdtPaddingBottom" format="dimension"/>
+        <attr name="mtEdtPaddingEnd" format="dimension"/>
+        <attr name="mtLabelTextColor" format="color"/>
+        <attr name="mtLabelTextBackgroundColor" format="color"/>
+    </declare-styleable>
+</resources>
